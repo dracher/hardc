@@ -4,8 +4,14 @@ int get_len(char s[]);
 
 int main (int argc, char const *argv[])
 {
-	char s[10] = "hello";
-	printf("%d", get_len(s));
+	int i=0;
+	int j=6;
+	while (i!=j)
+	{
+		printf("%d, %d\n", i, j);
+		i++;
+		j--;
+	}
 	return 0;
 }
 
