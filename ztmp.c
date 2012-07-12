@@ -4,14 +4,9 @@ int get_len(char s[]);
 
 int main (int argc, char const *argv[])
 {
-	int i=0;
-	int j=6;
-	while (i!=j)
-	{
-		printf("%d, %d\n", i, j);
-		i++;
-		j--;
-	}
+  int i;
+  i += 2;
+  printf("%d\n", i);
 	return 0;
 }
 
