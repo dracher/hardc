@@ -1,20 +1,10 @@
 #include <stdio.h>
+#include "testlib.h"
 
-int get_len(char s[]);
+int max;
 
-int main (int argc, char const *argv[])
+main(void)
 {
-  int i;
-  i += 2;
-  printf("%d\n", i);
-	return 0;
+	max = 0;
 }
 
-int get_len(char s[])
-{
-	int i;
-	i = 0;
-	while (s[i]!='\0')
-		i++;
-	return i;
-}
